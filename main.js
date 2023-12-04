@@ -1,10 +1,10 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Haha get rickrolled", "amogus", "why are you still here"];
+const textArray = ["Merry Christmas everyone!", "Have a great Christmas", "Why are you still here?", "damn I miss to play w/ you"];
 const typingDelay = 200;
-const erasingDelay = 100;
-const newTextDelay = 500; // Delay between current and next text
+const erasingDelay = 50;
+const newTextDelay = 400; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
 

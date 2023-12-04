@@ -37,18 +37,26 @@
              </label>
         </div>
         <video loop playsinline preload="auto" class="fullscreen bg-video" id="video">
-         <source src="files/rick.mp4" type="video/mp4">
+         <source src="files/mariah.mp4" type="video/mp4">
       </video>
+      <div class='snowsand'>
+        <canvas class='snowball' id='snowball'></canvas>
+    </div>
+    <script type='text/javascript'>
+        //<![CDATA[
+        !function () { function t(t) { var n = t.getContext("2d"), e = 0, i = 0, o = [], d = function () { this.x = this.y = this.dx = this.dy = 0, this.reset() }; function a() { e = window.innerWidth, i = window.innerHeight, t.width = e, t.height = i, function (t) { if (t != o.length) { o = []; for (var n = 0; n < t; n++)o.push(new d) } }(e * i / 1e4) } d.prototype.reset = function () { this.y = Math.random() * i, this.x = Math.random() * e, this.dx = 1 * Math.random() - .5, this.dy = .5 * Math.random() + .5 }, a(), function t() { n.clearRect(0, 0, e, i), n.fillStyle = "rgba(174, 198, 255,.3)", o.forEach(function (t) { t.y += t.dy, t.x += t.dx, t.y > i && (t.y = 0), t.x > e && (t.reset(), t.y = 0), n.beginPath(), n.arc(t.x, t.y, 5, 0, 2 * Math.PI, !1), n.fill() }), window.requestAnimationFrame(t) }(), window.addEventListener("resize", a) } var n; n = function () { t(document.getElementById("snowball")) }, "loading" != document.readyState ? n() : document.addEventListener("DOMContentLoaded", n) }();
+        //]]>
+    </script>
         <section class="fullscreen text-content">
-            <h1 style="font-family: mono; text-shadow: 0 0 0.40em #bababa;">Kazura</h1>
-            <E style="font-family: mono; text-shadow: 0 0 0.40em #bababa">(⌐■_■)–︻╦╤─ </E>
-            <center><span class="typed-text" style="font-family: mono; text-shadow: 0 0 0.40em #bababa"></span><span class="cursor">&nbsp;</span></center>
+            <h1 style="font-family: mono; text-shadow: 0 0 0.40em #7002ff; color: rgb(75, 243, 255); font-size: 2.2em;">Kazura</h1>
+            <E style="font-family: mono; text-shadow: 0 0 0.40em #7002ff; color: rgb(75, 243, 255); font-size: 1.8em;">(⌐■_■)–︻╦╤─ </E>
+            <center><span class="typed-text" style="font-family: mono; text-shadow: 0 0 0.40em #7002ff; color: rgb(75, 243, 255); font-size: 1.5em"></span><span class="cursor">&nbsp;</span></center>
 <script src="main.js"></script>
            <h2>
             <div class="socials">
-                <a href="https://tracker.gg/valorant/profile/riot/Pathaan%23SRK23/" target="blank" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.70em #bababa;">Val Tracker</a> |
-                <a href="https://discord.com/users/709352514398453774" target="blank" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.70em #bababa;">Discord</a> |
-                <a href="https://www.tiktok.com/@kazzura_" target="blank" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.70em #bababa;">TikTok</a> </div>
+                <a href="https://tracker.gg/valorant/profile/riot/Pathaan%23SRK23/" target="blank" style="text-decoration:none; font-family: mono; font-size: 2em; text-shadow: 0 0 0.70em #7002ff; color: rgb(75, 243, 255);">Val Tracker</a> |
+                <a href="https://discord.com/users/709352514398453774" target="blank" style="text-decoration:none; font-family: mono; font-size: 2em; text-shadow: 0 0 0.70em #7002ff; color: rgb(75, 243, 255);">Discord</a> |
+                <a href="https://www.tiktok.com/@kazzura_" target="blank" style="text-decoration:none; font-family: mono; font-size: 2em; text-shadow: 0 0 0.70em #7002ff; color: rgb(75, 243, 255);">TikTok</a> </div>
 
 
 <script>
