@@ -13,6 +13,10 @@
     <meta property="og:image" content="https://cdn.discordapp.com/attachments/943889218931929108/953693617288015943/images.jpg">
     <meta name="theme-color" content="#1C1C1E">
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+\<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=K2D&family=Nova+Square&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -32,31 +36,28 @@
         <input type="checkbox" autocomplete="off" id="overlay-toggle">
         <div class="overlay fullscreen">
             <label for="overlay-toggle" onclick="videoPlay()">
-                    <span class="hover" style="font-family: mono; font-size: 0.6em;">Click to enter Kaz chillzone</span>
-                    <span class="no-hover" style="font-family: mono; font-size: 0.6em;">Tap to enter Kaz chillzone</span>
+                    <span class="hover" style="font-family: Bakbak one; font-size: 0.6em;">Click to enter Kaz chillzone</span>
+                    <span class="no-hover" style="font-family: Dosis; font-size: 0.6em;">Tap to enter Kaz chillzone</span>
              </label>
         </div>
         <video loop playsinline preload="auto" class="fullscreen bg-video" id="video">
          <source src="files/mariah.mp4" type="video/mp4">
       </video>
-      <div class='snowsand'>
-        <canvas class='snowball' id='snowball'></canvas>
-    </div>
-    <script type='text/javascript'>
-        //<![CDATA[
-        !function () { function t(t) { var n = t.getContext("2d"), e = 0, i = 0, o = [], d = function () { this.x = this.y = this.dx = this.dy = 0, this.reset() }; function a() { e = window.innerWidth, i = window.innerHeight, t.width = e, t.height = i, function (t) { if (t != o.length) { o = []; for (var n = 0; n < t; n++)o.push(new d) } }(e * i / 1e4) } d.prototype.reset = function () { this.y = Math.random() * i, this.x = Math.random() * e, this.dx = 1 * Math.random() - .5, this.dy = .5 * Math.random() + .5 }, a(), function t() { n.clearRect(0, 0, e, i), n.fillStyle = "rgba(174, 198, 255,.3)", o.forEach(function (t) { t.y += t.dy, t.x += t.dx, t.y > i && (t.y = 0), t.x > e && (t.reset(), t.y = 0), n.beginPath(), n.arc(t.x, t.y, 5, 0, 2 * Math.PI, !1), n.fill() }), window.requestAnimationFrame(t) }(), window.addEventListener("resize", a) } var n; n = function () { t(document.getElementById("snowball")) }, "loading" != document.readyState ? n() : document.addEventListener("DOMContentLoaded", n) }();
-        //]]>
-    </script>
+   
+    
         <section class="fullscreen text-content">
-            <h1 style="font-family: mono; text-shadow: 0 0 0.40em #7002ff; color: rgb(75, 243, 255); font-size: 2.2em;">Kazura</h1>
+            <h1 style="font-family: Bakbak one; text-shadow: 0 0 1em #a05ff5; color: rgb(0, 238, 255); font-size: 2.2em;">Kazura</h1>
             <E style="font-family: mono; text-shadow: 0 0 0.40em #7002ff; color: rgb(75, 243, 255); font-size: 1.8em;">(⌐■_■)–︻╦╤─ </E>
             <center><span class="typed-text" style="font-family: mono; text-shadow: 0 0 0.40em #7002ff; color: rgb(75, 243, 255); font-size: 1.5em"></span><span class="cursor">&nbsp;</span></center>
 <script src="main.js"></script>
            <h2>
             <div class="socials">
-                <a href="https://tracker.gg/valorant/profile/riot/Pathaan%23SRK23/" target="blank" style="text-decoration:none; font-family: mono; font-size: 2em; text-shadow: 0 0 0.70em #7002ff; color: rgb(75, 243, 255);">Val Tracker</a> |
-                <a href="https://discord.com/users/709352514398453774" target="blank" style="text-decoration:none; font-family: mono; font-size: 2em; text-shadow: 0 0 0.70em #7002ff; color: rgb(75, 243, 255);">Discord</a> |
-                <a href="https://www.tiktok.com/@kazzura_" target="blank" style="text-decoration:none; font-family: mono; font-size: 2em; text-shadow: 0 0 0.70em #7002ff; color: rgb(75, 243, 255);">TikTok</a> </div>
+                <div class='snowsand'>
+                    <canvas class='snowball' id='snowball'></canvas>
+                </div>
+                <img style="width: 2%; height: 2%;" src="files/tiktok.png" alt=""><a href="https://www.tiktok.com/@kazzura_" target="blank" style="text-decoration:none; font-family: Nova Square; font-size: 2em; text-shadow: 0 0 0.70em #7002ff; color: rgb(75, 243, 255);">TikTok</a> |   <br>
+                <img style="width: 2%; height: 2%; text-shadow: 10px black;" src="files/discord.png" alt=""><a href="https://discord.com/users/709352514398453774" target="blank" style="text-decoration:none; font-family: Nova Square; font-size: 2em; text-shadow: 0 0 0.70em #7002ff; color: rgb(75, 243, 255);">Discord</a> |   <br>
+                <img style="width: 1.7%; height: 1.7%; text-shadow: 10px black;" src="files/valorant.jpeg" alt=""><a href="https://tracker.gg/valorant/profile/riot/Pathaan%23SRK23/" target="blank" style="text-decoration:none; font-family: Nova Square; font-size: 2em; text-shadow: 0 0 0.70em #7002ff; color: rgb(75, 243, 255);">Val Tracker</a></div>
 
 
 <script>
@@ -68,7 +69,12 @@ window.addEventListener("load", function(){
 </script>
 
 
-
+<script type='text/javascript'>
+    //<![CDATA[
+    !function () { function t(t) { var n = t.getContext("2d"), e = 0, i = 0, o = [], d = function () { this.x = this.y = this.dx = this.dy = 0, this.reset() }; function a() { e = window.innerWidth, i = window.innerHeight, t.width = e, t.height = i, function (t) { if (t != o.length) { o = []; for (var n = 0; n < t; n++)o.push(new d) } }(e * i / 1e4) } d.prototype.reset = function () { this.y = Math.random() * i, this.x = Math.random() * e, this.dx = 1 * Math.random() - .5, this.dy = .5 * Math.random() + .5 }, a(), function t() { n.clearRect(0, 0, e, i), n.fillStyle = "rgba(174, 198, 255,.3)", o.forEach(function (t) { t.y += t.dy, t.x += t.dx, t.y > i && (t.y = 0), t.x > e && (t.reset(), t.y = 0), n.beginPath(), n.arc(t.x, t.y, 5, 0, 2 * Math.PI, !1), n.fill() }), window.requestAnimationFrame(t) }(), window.addEventListener("resize", a) } var n; n = function () { t(document.getElementById("snowball")) }, "loading" != document.readyState ? n() : document.addEventListener("DOMContentLoaded", n) }();
+    //]]>
+    
+</script>
 
 </body>
 </html>
